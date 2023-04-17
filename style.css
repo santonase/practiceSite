@@ -25,6 +25,7 @@ a {
     color: white;
     font-size: 14px;
     font-weight: bold;
+    padding: 0 10px;
 }
 
 .nav-list li:last-of-type {
