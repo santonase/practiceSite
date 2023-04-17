@@ -16,19 +16,53 @@ a {
 
 .header {
     background-color: black;
+    align-items: center;
     height: 50px;
-    line-height: 50px;
+    display: flex;
+}
+
+.logo-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
 }
 
 .nav-list li {
-    display: inline-block;
     color: white;
     font-size: 14px;
     font-weight: bold;
     padding: 0 10px;
 }
 
-.nav-list li:last-of-type {
-    font-size: 38px;
-    color: red;
+.nav-list li:last-of-type a {
+    display: flex;
+    align-items: center;
+    background-color: #dd3d53;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    border-radius: 3px;
+    transition: all .25s ease;
+}
+
+.nav-list li:last-of-type a:hover {
+    background-color: #c9233a;
+    color: #fff;
+}
+
+.heart-icon {
+    margin-right: 5px;
+}
+
+.nav-list li:last-of-type svg {
+    width: 1em;
 }
